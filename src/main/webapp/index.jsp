@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Provedores</title>
+  <title>Proveedores</title>
   <%@ include file="/assets/html/head.jsp" %>
 </head>
 <body class="bg-dark mt-60">
 <%@ include file="/assets/html/header.jsp" %>
 <div class="container bg-dark text-white mt-120">
-  <h3>Registrar un nuevo provedor</h3>
+  <h3>Registrar un nuevo proveedor</h3>
   <hr class="my-4">
   <form action="ServletProvedor" method="post">
     <section  class="container">
@@ -23,12 +23,12 @@
         </tr>
         <tr>
           <td><strong><label for="direction">Direccion:</label></strong></td>
-          <td><input type="text" id="direction" name="direction" placeholder="Direccion del provedor" required></td>
+          <td><input type="text" id="direction" name="direction" placeholder="Direccion del proveedor" required></td>
           <td><strong><label for="email">Correo:</label></strong></td>
           <td><input type="text" id="email" name="email" placeholder="Correo del provedor" required></td>
         </tr>
         <tr>
-          <td><strong><label for="phone">Telefono provedor:</label></strong></td>
+          <td><strong><label for="phone">Telefono proveedor:</label></strong></td>
           <td><input type="text" id="phone" name="phone" placeholder="Formato +569XXXXXXXX" required></td>
           <td><strong><label for="contact">Contacto:</label></strong></td>
           <td><input type="text" id="contact" name="contact" placeholder="Nomre del contacto" required></td>
@@ -37,14 +37,14 @@
           <td><strong><label for="contact_phone_number">Telefono de contacto:</label></strong></td>
           <td><input type="text" id="contact_phone_number" name="contact_phone_number" placeholder="Formato +569XXXXXXXX" required></td>
           <td></td>
-          <td><button type="submit" class="btn btn-primary">Guardar provedor</button></td>
+          <td><button type="submit" class="btn btn-primary">Guardar proveedor</button></td>
         </tr>
         </tbody>
       </table>
     </section>
   </form>
   <section class="container mt-60">
-      <h3>Lista de Provedores</h3>
+      <h3>Lista de Proveedores</h3>
       <hr class="my-4">
       <table class="table table-striped">
         <thead>
@@ -56,7 +56,7 @@
           <th>Correo</th>
           <th>Teléfono</th>
           <th>Contacto</th>
-          <th>Teléfono de Contacto</th>
+          <th>Teléfono de contacto</th>
         </tr>
         </thead>
         <tbody>
